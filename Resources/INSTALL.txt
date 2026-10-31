@@ -1,0 +1,29 @@
+DICTATOR — on-device dictation for English and Hinglish
+=======================================================
+
+Requirements: a Mac with Apple Silicon (M1 or newer) running macOS 14 Sonoma or later,
+and about 2 GB of free disk space.
+
+1. Drag Dictator into the Applications folder.
+
+2. Open Dictator from Applications.
+   macOS will say it "cannot verify" Dictator, because it isn't from the App Store
+   or a paid Apple developer account. To open it anyway:
+     - Click "Done" on that message.
+     - Open System Settings > Privacy & Security, scroll down,
+       and click "Open Anyway" next to the Dictator message. Confirm with your password.
+   You only need to do this once.
+
+3. Follow the Setup screen:
+     - Download the speech model (about 600 MB, once).
+     - Download the AI cleanup model (about 1.1 GB, recommended).
+     - Allow Microphone and Accessibility when asked.
+   The first launch spends ~3 minutes optimizing the model for your Mac.
+
+4. Hold the fn key (or the key you picked) in any app, speak, and let go.
+   Double-tap the key for hands-free mode. Press Esc to cancel.
+
+Transforms: select text anywhere and press Control+Option+1 (Polish)
+or Control+Option+2 (Prompt Engineer).
+
+Everything runs on your Mac. Nothing you say is sent anywhere.
